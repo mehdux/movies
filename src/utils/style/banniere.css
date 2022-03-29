@@ -1,0 +1,12 @@
+.ctn {
+  background-color: #8383d9;
+  padding: 15px;
+}
+
+.text_banniere {
+  font-style: italic;
+  font-weight: bolder;
+  color: khaki;
+  font-size: 45px;
+  font-family: cursive;
+}

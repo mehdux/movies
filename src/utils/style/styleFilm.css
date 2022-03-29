@@ -1,0 +1,84 @@
+.lmj-film-item-cover {
+  height: 250px;
+  width: 250px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.lmj-film-item {
+  margin: 10px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  text-transform: capitalize;
+  position: relative;
+}
+
+.lmj-film-item-price {
+  position: absolute;
+  border-radius: 20px 20px 20px 0;
+  background-color: #31b472;
+  color: white;
+  padding: 15px;
+  right: 0;
+  top: 0;
+  font-weight: 500;
+}
+
+.titre_film {
+  color: #585858;
+  margin-top: 10px;
+  font-size: 23px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.ctn_info_film {
+  width: 100%;
+  border: 1px solid transparent;
+  height: 25px;
+}
+
+.fils_info_film {
+  width: 30%;
+  border: inherit;
+  height: inherit;
+  float: left;
+}
+
+.like_film {
+  float: left;
+  cursor: pointer;
+}
+
+.nbr_like_film {
+  float: left;
+  font-family: sans-serif;
+  font-weight: bolder;
+  color: #4e4e4e;
+  font-size: 16px;
+  margin-left: 5px;
+}
+
+.supprime_film {
+  cursor: pointer;
+  width: 18px;
+  margin-top: -10px;
+}
+
+.info_categ {
+  margin-bottom: 15px;
+}
+
+.label_categ {
+  font-family: system-ui;
+  font-weight: bold;
+  color: #767676;
+}
+
+.categ {
+  font-style: italic;
+  color: purple;
+  font-weight: bolder;
+}

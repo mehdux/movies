@@ -1,0 +1,47 @@
+.lmj-films-list {
+  width: 100%;
+}
+
+.lmj-film-list {
+  list-style-type: none;
+  padding: 32px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.menu_filtre {
+  margin: 0 auto;
+  border: 1px solid transparent;
+  height: 80px;
+  width: 300px;
+}
+
+.elem_menu_filtre {
+  float: left;
+}
+
+.style_select {
+  background-color: #8dbbff !important;
+}
+
+.les_boutons_page {
+  margin: 0 auto 40px;
+  width: 200px;
+  text-align: center;
+}
+
+.numpage {
+  padding: 10px;
+  font-weight: bold;
+  font-size: 18px;
+  color: skyblue;
+}
+.text_liste_vide {
+  text-align: center;
+  font-size: 50px;
+  margin-top: 100px;
+  font-family: cursive;
+  font-weight: bold;
+  color: red;
+}
